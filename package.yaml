@@ -32,4 +32,3 @@ executables:
     ghc-options:
     - -fwarn-incomplete-patterns
     - -threaded
-    - Icon.o
