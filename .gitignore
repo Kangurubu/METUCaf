@@ -12,3 +12,4 @@ dist-docs.*/
 *.dylib
 cabal.project.local*
 .exe/
+exe/
