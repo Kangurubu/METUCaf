@@ -13,3 +13,4 @@ dist-docs.*/
 cabal.project.local*
 .exe/
 exe/
+*.exe
