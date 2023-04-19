@@ -1,0 +1,35 @@
+name:                METUCaf
+version:             0.1
+#synopsis:
+#description:
+homepage:            https://github.com/Kangurubu
+license:             BSD3
+author:              Batuhan Teberoğlu
+maintainer:          teberoglu.batuhan@metu.edu.tr
+copyright:           2023 Batuhan Teberoğlu
+#category:
+extra-source-files:
+- README.md
+
+default-extensions:
+- OverloadedStrings
+
+dependencies:
+  - base >= 4.7 && < 5
+  - deepseq >= 1.1
+  - data-default
+  - lens
+  - monomer
+  - text
+  - text-show
+  - time >= 1.11
+  - scalpel
+
+executables:
+  METUCaf:
+    source-dirs:      src
+    main:             Main.hs
+    ghc-options:
+    - -fwarn-incomplete-patterns
+    - -threaded
+    - Icon.o
